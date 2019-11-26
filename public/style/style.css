@@ -1,0 +1,27 @@
+.card-deck .card {
+  min-width: 310px;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.col-md-8 .table-hover tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.36);
+}
+
+button.far.fa-trash-alt {
+  border: none;
+  background: none;
+  color: red;
+}

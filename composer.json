@@ -1,0 +1,10 @@
+{
+    "name": "antho/first-blog",
+    "authors": [
+        {
+            "name": "seguinard",
+            "email": "anthony.seguinard@live.fr"
+        }
+    ],
+    "require": {}
+}
