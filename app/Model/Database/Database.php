@@ -9,7 +9,7 @@ class Database {
 
     private function getPDO(){
         if($this->pdo === null){
-           $pdo = new PDO('mysql:host=e7qyahb3d90mletd.chr7pe7iynqr.eu-west-1.rds.amazonaws.com;dbname=u9md5xj2g0a5ts8g; charset=utf8', 'r4bdn4pyj121z7j2', 'a384w88bcbzkaqgq');
+           $pdo = new PDO('mysql:host=e7qyahb3d90mletd.chr7pe7iynqr.eu-west-1.rds.amazonaws.com;dbname=r4bdn4pyj121z7j2; charset=utf8', 'u9md5xj2g0a5ts8g', 'a384w88bcbzkaqgq');
             $this->pdo = $pdo;
         }
         return $this->pdo;
